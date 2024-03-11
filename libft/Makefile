@@ -6,7 +6,7 @@
 #    By: nromito <nromito@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/10 15:40:44 by nromito           #+#    #+#              #
-#    Updated: 2024/01/25 19:10:30 by nromito          ###   ########.fr        #
+#    Updated: 2023/11/10 15:40:49 by nromito          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,7 +31,6 @@ bonus: ${BONUS_OBJS} ${MANDATORY_OBJS}
 
 clean:
 	rm -f ${MANDATORY_OBJS}
-	rm -f ${BONUS_OBJS}
 
 fclean: clean
 	rm -f ${NAME}
